@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85CEB9AE1EAA58CE008DE941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9AD1EAA58CE008DE941 /* main.m */; };
+		85CEB9B11EAA58CE008DE941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9B01EAA58CE008DE941 /* AppDelegate.m */; };
+		85CEB9B41EAA58CE008DE941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9B31EAA58CE008DE941 /* ViewController.m */; };
+		85CEB9B71EAA58CE008DE941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CEB9B51EAA58CE008DE941 /* Main.storyboard */; };
+		85CEB9B91EAA58CE008DE941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CEB9B81EAA58CE008DE941 /* Assets.xcassets */; };
+		85CEB9BC1EAA58CE008DE941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CEB9BA1EAA58CE008DE941 /* LaunchScreen.storyboard */; };
+		85CEB9C71EAA59F1008DE941 /* JHostVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9C51EAA59F1008DE941 /* JHostVC.m */; };
+		85CEB9C81EAA59F1008DE941 /* JHostVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85CEB9C61EAA59F1008DE941 /* JHostVC.xib */; };
+		85CEB9CD1EAA5BAD008DE941 /* JVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9CC1EAA5BAD008DE941 /* JVideoConfig.m */; };
+		85CEB9D01EAA5BB8008DE941 /* H264JEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9CF1EAA5BB8008DE941 /* H264JEncoder.m */; };
+		85CEB9D31EAA6065008DE941 /* JRTMPConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9D21EAA6065008DE941 /* JRTMPConfig.m */; };
+		85CEB9D71EAA612C008DE941 /* JVideoOutputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9D61EAA612C008DE941 /* JVideoOutputHandler.m */; };
+		85CEB9DD1EAA621F008DE941 /* NSMutableData+Buffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9DA1EAA621F008DE941 /* NSMutableData+Buffer.m */; };
+		85CEB9DE1EAA621F008DE941 /* NSString+Url.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9DC1EAA621F008DE941 /* NSString+Url.m */; };
+		85CEB9E21EAA6246008DE941 /* JFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9E11EAA6246008DE941 /* JFrame.m */; };
+		85CEB9E51EAA6278008DE941 /* JVideoPackager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9E41EAA6278008DE941 /* JVideoPackager.m */; };
+		85CEB9F81EAA6DE8008DE941 /* JVideoSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9F71EAA6DE8008DE941 /* JVideoSession.m */; };
+		85CEB9FB1EAA6DF6008DE941 /* JStreamSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9FA1EAA6DF6008DE941 /* JStreamSession.m */; };
+		85CEB9FE1EAA6E05008DE941 /* JRTMPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB9FD1EAA6E05008DE941 /* JRTMPSession.m */; };
+		85CEBA011EAA6F1C008DE941 /* JSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CEBA001EAA6F1C008DE941 /* JSession.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85CEB9A91EAA58CE008DE941 /* JRTMPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRTMPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CEB9AD1EAA58CE008DE941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85CEB9AF1EAA58CE008DE941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85CEB9B01EAA58CE008DE941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85CEB9B21EAA58CE008DE941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85CEB9B31EAA58CE008DE941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85CEB9B61EAA58CE008DE941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85CEB9B81EAA58CE008DE941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85CEB9BB1EAA58CE008DE941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85CEB9BD1EAA58CE008DE941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CEB9C41EAA59F1008DE941 /* JHostVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHostVC.h; sourceTree = "<group>"; };
+		85CEB9C51EAA59F1008DE941 /* JHostVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHostVC.m; sourceTree = "<group>"; };
+		85CEB9C61EAA59F1008DE941 /* JHostVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHostVC.xib; sourceTree = "<group>"; };
+		85CEB9CB1EAA5BAD008DE941 /* JVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVideoConfig.h; sourceTree = "<group>"; };
+		85CEB9CC1EAA5BAD008DE941 /* JVideoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVideoConfig.m; sourceTree = "<group>"; };
+		85CEB9CE1EAA5BB8008DE941 /* H264JEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264JEncoder.h; sourceTree = "<group>"; };
+		85CEB9CF1EAA5BB8008DE941 /* H264JEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H264JEncoder.m; sourceTree = "<group>"; };
+		85CEB9D11EAA6065008DE941 /* JRTMPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTMPConfig.h; sourceTree = "<group>"; };
+		85CEB9D21EAA6065008DE941 /* JRTMPConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTMPConfig.m; sourceTree = "<group>"; };
+		85CEB9D51EAA612C008DE941 /* JVideoOutputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVideoOutputHandler.h; sourceTree = "<group>"; };
+		85CEB9D61EAA612C008DE941 /* JVideoOutputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVideoOutputHandler.m; sourceTree = "<group>"; };
+		85CEB9D91EAA621F008DE941 /* NSMutableData+Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Buffer.h"; sourceTree = "<group>"; };
+		85CEB9DA1EAA621F008DE941 /* NSMutableData+Buffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Buffer.m"; sourceTree = "<group>"; };
+		85CEB9DB1EAA621F008DE941 /* NSString+Url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Url.h"; sourceTree = "<group>"; };
+		85CEB9DC1EAA621F008DE941 /* NSString+Url.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Url.m"; sourceTree = "<group>"; };
+		85CEB9E01EAA6246008DE941 /* JFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFrame.h; sourceTree = "<group>"; };
+		85CEB9E11EAA6246008DE941 /* JFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFrame.m; sourceTree = "<group>"; };
+		85CEB9E31EAA6278008DE941 /* JVideoPackager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVideoPackager.h; sourceTree = "<group>"; };
+		85CEB9E41EAA6278008DE941 /* JVideoPackager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVideoPackager.m; sourceTree = "<group>"; };
+		85CEB9E61EAA6347008DE941 /* JTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTypeHeader.h; sourceTree = "<group>"; };
+		85CEB9F51EAA6DDC008DE941 /* JDemoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDemoHeader.h; sourceTree = "<group>"; };
+		85CEB9F61EAA6DE8008DE941 /* JVideoSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVideoSession.h; sourceTree = "<group>"; };
+		85CEB9F71EAA6DE8008DE941 /* JVideoSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVideoSession.m; sourceTree = "<group>"; };
+		85CEB9F91EAA6DF6008DE941 /* JStreamSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JStreamSession.h; sourceTree = "<group>"; };
+		85CEB9FA1EAA6DF6008DE941 /* JStreamSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JStreamSession.m; sourceTree = "<group>"; };
+		85CEB9FC1EAA6E05008DE941 /* JRTMPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTMPSession.h; sourceTree = "<group>"; };
+		85CEB9FD1EAA6E05008DE941 /* JRTMPSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTMPSession.m; sourceTree = "<group>"; };
+		85CEB9FF1EAA6F1C008DE941 /* JSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSession.h; sourceTree = "<group>"; };
+		85CEBA001EAA6F1C008DE941 /* JSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSession.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85CEB9A61EAA58CE008DE941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85CEB9A01EAA58CE008DE941 = {
+			isa = PBXGroup;
+			children = (
+				85CEB9AB1EAA58CE008DE941 /* JRTMPDemo */,
+				85CEB9AA1EAA58CE008DE941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85CEB9AA1EAA58CE008DE941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9A91EAA58CE008DE941 /* JRTMPDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85CEB9AB1EAA58CE008DE941 /* JRTMPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9E71EAA6518008DE941 /* Session */,
+				85CEB9DF1EAA622D008DE941 /* Package */,
+				85CEB9D81EAA6201008DE941 /* Category */,
+				85CEB9D41EAA610B008DE941 /* Handler */,
+				85CEB9CA1EAA5B95008DE941 /* VideoConfig */,
+				85CEB9C91EAA5B49008DE941 /* Encode */,
+				85CEB9C31EAA5932008DE941 /* HostVC */,
+				85CEB9AF1EAA58CE008DE941 /* AppDelegate.h */,
+				85CEB9B01EAA58CE008DE941 /* AppDelegate.m */,
+				85CEB9B21EAA58CE008DE941 /* ViewController.h */,
+				85CEB9B31EAA58CE008DE941 /* ViewController.m */,
+				85CEB9B51EAA58CE008DE941 /* Main.storyboard */,
+				85CEB9B81EAA58CE008DE941 /* Assets.xcassets */,
+				85CEB9BA1EAA58CE008DE941 /* LaunchScreen.storyboard */,
+				85CEB9BD1EAA58CE008DE941 /* Info.plist */,
+				85CEB9AC1EAA58CE008DE941 /* Supporting Files */,
+			);
+			path = JRTMPDemo;
+			sourceTree = "<group>";
+		};
+		85CEB9AC1EAA58CE008DE941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9AD1EAA58CE008DE941 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85CEB9C31EAA5932008DE941 /* HostVC */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9C41EAA59F1008DE941 /* JHostVC.h */,
+				85CEB9C51EAA59F1008DE941 /* JHostVC.m */,
+				85CEB9C61EAA59F1008DE941 /* JHostVC.xib */,
+			);
+			name = HostVC;
+			sourceTree = "<group>";
+		};
+		85CEB9C91EAA5B49008DE941 /* Encode */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9CE1EAA5BB8008DE941 /* H264JEncoder.h */,
+				85CEB9CF1EAA5BB8008DE941 /* H264JEncoder.m */,
+			);
+			name = Encode;
+			sourceTree = "<group>";
+		};
+		85CEB9CA1EAA5B95008DE941 /* VideoConfig */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9CB1EAA5BAD008DE941 /* JVideoConfig.h */,
+				85CEB9CC1EAA5BAD008DE941 /* JVideoConfig.m */,
+				85CEB9D11EAA6065008DE941 /* JRTMPConfig.h */,
+				85CEB9D21EAA6065008DE941 /* JRTMPConfig.m */,
+			);
+			name = VideoConfig;
+			sourceTree = "<group>";
+		};
+		85CEB9D41EAA610B008DE941 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9D51EAA612C008DE941 /* JVideoOutputHandler.h */,
+				85CEB9D61EAA612C008DE941 /* JVideoOutputHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		85CEB9D81EAA6201008DE941 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9D91EAA621F008DE941 /* NSMutableData+Buffer.h */,
+				85CEB9DA1EAA621F008DE941 /* NSMutableData+Buffer.m */,
+				85CEB9DB1EAA621F008DE941 /* NSString+Url.h */,
+				85CEB9DC1EAA621F008DE941 /* NSString+Url.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		85CEB9DF1EAA622D008DE941 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9E01EAA6246008DE941 /* JFrame.h */,
+				85CEB9E11EAA6246008DE941 /* JFrame.m */,
+				85CEB9E31EAA6278008DE941 /* JVideoPackager.h */,
+				85CEB9E41EAA6278008DE941 /* JVideoPackager.m */,
+				85CEB9E61EAA6347008DE941 /* JTypeHeader.h */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		85CEB9E71EAA6518008DE941 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				85CEB9FF1EAA6F1C008DE941 /* JSession.h */,
+				85CEBA001EAA6F1C008DE941 /* JSession.m */,
+				85CEB9FC1EAA6E05008DE941 /* JRTMPSession.h */,
+				85CEB9FD1EAA6E05008DE941 /* JRTMPSession.m */,
+				85CEB9F91EAA6DF6008DE941 /* JStreamSession.h */,
+				85CEB9FA1EAA6DF6008DE941 /* JStreamSession.m */,
+				85CEB9F61EAA6DE8008DE941 /* JVideoSession.h */,
+				85CEB9F71EAA6DE8008DE941 /* JVideoSession.m */,
+				85CEB9F51EAA6DDC008DE941 /* JDemoHeader.h */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85CEB9A81EAA58CE008DE941 /* JRTMPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CEB9C01EAA58CE008DE941 /* Build configuration list for PBXNativeTarget "JRTMPDemo" */;
+			buildPhases = (
+				85CEB9A51EAA58CE008DE941 /* Sources */,
+				85CEB9A61EAA58CE008DE941 /* Frameworks */,
+				85CEB9A71EAA58CE008DE941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRTMPDemo;
+			productName = JRTMPDemo;
+			productReference = 85CEB9A91EAA58CE008DE941 /* JRTMPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85CEB9A11EAA58CE008DE941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jacky;
+				TargetAttributes = {
+					85CEB9A81EAA58CE008DE941 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = L9ALLF39KA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 85CEB9A41EAA58CE008DE941 /* Build configuration list for PBXProject "JRTMPDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85CEB9A01EAA58CE008DE941;
+			productRefGroup = 85CEB9AA1EAA58CE008DE941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85CEB9A81EAA58CE008DE941 /* JRTMPDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85CEB9A71EAA58CE008DE941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CEB9BC1EAA58CE008DE941 /* LaunchScreen.storyboard in Resources */,
+				85CEB9C81EAA59F1008DE941 /* JHostVC.xib in Resources */,
+				85CEB9B91EAA58CE008DE941 /* Assets.xcassets in Resources */,
+				85CEB9B71EAA58CE008DE941 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85CEB9A51EAA58CE008DE941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CEB9D71EAA612C008DE941 /* JVideoOutputHandler.m in Sources */,
+				85CEB9FB1EAA6DF6008DE941 /* JStreamSession.m in Sources */,
+				85CEB9DD1EAA621F008DE941 /* NSMutableData+Buffer.m in Sources */,
+				85CEBA011EAA6F1C008DE941 /* JSession.m in Sources */,
+				85CEB9D31EAA6065008DE941 /* JRTMPConfig.m in Sources */,
+				85CEB9B41EAA58CE008DE941 /* ViewController.m in Sources */,
+				85CEB9C71EAA59F1008DE941 /* JHostVC.m in Sources */,
+				85CEB9B11EAA58CE008DE941 /* AppDelegate.m in Sources */,
+				85CEB9AE1EAA58CE008DE941 /* main.m in Sources */,
+				85CEB9DE1EAA621F008DE941 /* NSString+Url.m in Sources */,
+				85CEB9CD1EAA5BAD008DE941 /* JVideoConfig.m in Sources */,
+				85CEB9FE1EAA6E05008DE941 /* JRTMPSession.m in Sources */,
+				85CEB9E21EAA6246008DE941 /* JFrame.m in Sources */,
+				85CEB9F81EAA6DE8008DE941 /* JVideoSession.m in Sources */,
+				85CEB9E51EAA6278008DE941 /* JVideoPackager.m in Sources */,
+				85CEB9D01EAA5BB8008DE941 /* H264JEncoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85CEB9B51EAA58CE008DE941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85CEB9B61EAA58CE008DE941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85CEB9BA1EAA58CE008DE941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85CEB9BB1EAA58CE008DE941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85CEB9BE1EAA58CE008DE941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85CEB9BF1EAA58CE008DE941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85CEB9C11EAA58CE008DE941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = JRTMPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakcy.test.JRTMPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85CEB9C21EAA58CE008DE941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = JRTMPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakcy.test.JRTMPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85CEB9A41EAA58CE008DE941 /* Build configuration list for PBXProject "JRTMPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CEB9BE1EAA58CE008DE941 /* Debug */,
+				85CEB9BF1EAA58CE008DE941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CEB9C01EAA58CE008DE941 /* Build configuration list for PBXNativeTarget "JRTMPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CEB9C11EAA58CE008DE941 /* Debug */,
+				85CEB9C21EAA58CE008DE941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85CEB9A11EAA58CE008DE941 /* Project object */;
+}
