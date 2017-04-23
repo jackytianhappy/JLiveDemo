@@ -73,7 +73,7 @@
     return _videoEncode;
 }
 
-#pragma mark - LLYVideoEncodeDelegate
+#pragma mark - VideoEncodeDelegate
 - (void)videoEncode:(H264JEncoder *)encode sps:(NSData *)sps pps:(NSData *)pps time:(uint64_t)time{
     
     NSLog(@"gotSpsPps %d %d", (int)[sps length], (int)[pps length]);
@@ -106,7 +106,7 @@
     }
 }
 
-#pragma mark - LLYVideoOutputDelegate
+#pragma mark - VideoOutputDelegate
 - (void)videOutputHandler:(JVideoOutputHandler *)handler didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer{
     
     CVPixelBufferRef pixelBufferRef = CMSampleBufferGetImageBuffer(sampleBuffer);

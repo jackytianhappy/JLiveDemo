@@ -31,7 +31,7 @@ typedef NS_ENUM(NSUInteger, JSessionState) {
 
 @end
 
-@class LLYRtmpConfig;
+@class JRtmpConfig;
 @interface JSession : NSObject
 
 @property (nonatomic,strong) JVideoSession *videoSession;

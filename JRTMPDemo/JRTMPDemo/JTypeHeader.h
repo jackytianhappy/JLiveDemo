@@ -41,7 +41,7 @@ typedef struct {
 
 #pragma pack(pop)//恢复字节对齐
 
-typedef NS_ENUM(NSUInteger, LLYStreamID) {
+typedef NS_ENUM(NSUInteger, JStreamID) {
     JStreamIDPing   = 0x02,//Ping 和ByteRead通道
     JStreamIDInvoke = 0x03,//invoke通道,connect,publish,connect
     JStreamIDAudio  = 0x04,//audio or video,这里只作为音频数据
@@ -49,7 +49,7 @@ typedef NS_ENUM(NSUInteger, LLYStreamID) {
     JStreamIDPlay   = 0x08 // 播放
 };
 
-typedef NS_ENUM(NSUInteger, LLYMSGTypeID) {
+typedef NS_ENUM(NSUInteger, JMSGTypeID) {
     JMSGTypeID_CHUNK_SIZE   = 0x1,
     JMSGTypeID_BYTES_READ   = 0x3,
     JMSGTypeID_PING         = 0x4,

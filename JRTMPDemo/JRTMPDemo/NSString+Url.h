@@ -1,6 +1,6 @@
 //
 //  NSString+Url.h
-//  LLYRtmpDemo
+//  JRtmpDemo
 //
 //  Created by Jacky on 2017/4/9.
 //  Copyright © 2017年 jacky. All rights reserved.
